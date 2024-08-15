@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-08-13 10:15:11 by epics-->
+<display version="2.0.0">
+  <name>Spinner Slider Scrollbar</name>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>LaserControlPanel</text>
+    <x>1</x>
+    <width>429</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>Scaled Slider_1</name>
+    <pv_name>gp2:laserpercentage</pv_name>
+    <x>1</x>
+    <y>230</y>
+    <width>509</width>
+    <height>80</height>
+    <transparent>false</transparent>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="22.0">
+      </font>
+    </font>
+    <show_hihi>false</show_hihi>
+    <show_high>false</show_high>
+    <show_low>false</show_low>
+    <show_lolo>false</show_lolo>
+    <limits_from_pv>false</limits_from_pv>
+  </widget>
+  <widget type="spinner" version="2.0.0">
+    <name>Spinner</name>
+    <pv_name>gp2:laserpercentage</pv_name>
+    <x>20</x>
+    <y>160</y>
+    <height>45</height>
+    <background_color>
+      <color red="204" green="255" blue="255">
+      </color>
+    </background_color>
+    <buttons_on_left>true</buttons_on_left>
+  </widget>
+  <widget type="slide_button" version="2.0.0">
+    <name>Slide Button_1</name>
+    <x>370</x>
+    <y>160</y>
+    <width>0</width>
+    <height>0</height>
+  </widget>
+</display>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Saved on 2024-08-13 13:24:01 by epics-->
+<display version="2.0.0">
+  <name>Laser</name>
+  <width>530</width>
+  <height>401</height>
+  <widget type="rectangle" version="2.0.0">
+    <name>Rectangle_1</name>
+    <x>20</x>
+    <y>40</y>
+    <width>510</width>
+    <height>360</height>
+    <line_color>
+      <color name="Header_Background" red="77" green="77" blue="77">
+      </color>
+    </line_color>
+    <background_color>
+      <color name="Grid" red="128" green="128" blue="128">
+      </color>
+    </background_color>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Label</name>
+    <text>LaserControlPanel</text>
+    <x>110</x>
+    <y>40</y>
+    <width>330</width>
+    <height>30</height>
+    <font>
+      <font family="Liberation Sans" style="BOLD" size="36.0">
+      </font>
+    </font>
+  </widget>
+  <widget type="scaledslider" version="2.0.0">
+    <name>Scaled Slider_1</name>
+    <pv_name>gp2:laserpercentage</pv_name>
+    <x>30</x>
+    <y>200</y>
+    <width>470</width>
+    <height>60</height>
+    <transparent>false</transparent>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="22.0">
+      </font>
+    </font>
+    <show_hihi>false</show_hihi>
+    <show_high>false</show_high>
+    <show_low>false</show_low>
+    <show_lolo>false</show_lolo>
+  </widget>
+  <widget type="spinner" version="2.0.0">
+    <name>Spinner</name>
+    <pv_name>gp2:laserpercentage</pv_name>
+    <x>231</x>
+    <y>290</y>
+    <height>45</height>
+    <font>
+      <font family="Liberation Sans" style="REGULAR" size="24.0">
+      </font>
+    </font>
+    <background_color>
+      <color name="Button_Background" red="210" green="210" blue="210">
+      </color>
+    </background_color>
+    <buttons_on_left>true</buttons_on_left>
+    <horizontal_alignment>1</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="text-symbol" version="2.0.0">
+    <name>Text Symbol</name>
+    <x>200</x>
+    <y>360</y>
+    <width>10</width>
+    <height>0</height>
+  </widget>
+  <widget type="progressbar" version="2.0.0">
+    <name>Progress Bar</name>
+    <pv_name>gp2:laserpercentage</pv_name>
+    <x>30</x>
+    <y>160</y>
+    <width>470</width>
+    <height>31</height>
+  </widget>
+</display>
